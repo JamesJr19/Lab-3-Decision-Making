@@ -35,7 +35,7 @@ namespace Lab_3_Decision_Making
                     Console.WriteLine($"Thanks {name}. {userInput} is Even.");
                 }
 
-                else if (userInput > 100)
+                else if (userInput > 100 || userInput < 1)
                 {
                     Console.WriteLine("Invalid entry.");
                 }
